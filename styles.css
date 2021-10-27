@@ -3,5 +3,6 @@ h1{
     color: black;
     -webkit-text-stroke: 1px rgb(255, 212, 225);
     --webkit-text-fill-color: white;
-    
+    font-size: 75px;
+    font-family: "Lucida Calligraphy";
 }
