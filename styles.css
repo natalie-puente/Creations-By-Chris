@@ -1,8 +1,19 @@
 h1{
     text-align: center;
     color: black;
-    -webkit-text-stroke: 1px rgb(255, 212, 225);
+    -webkit-text-stroke: 1px rgb(255, 208, 222);
     --webkit-text-fill-color: white;
     font-size: 75px;
     font-family: "Lucida Calligraphy";
+}
+.navbar{
+    background-color: rgb(255, 238, 243);
+    font-size: 28px;
+    border-right-style:1px black;
+    border: black;
+}
+li {
+    display: block;
+    color: black;
+    border: .5px solid black;
 }
