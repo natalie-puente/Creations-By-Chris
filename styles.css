@@ -12,8 +12,33 @@ h1{
     border-right-style:1px black;
     border: black;
 }
-li {
-    display: block;
-    color: black;
-    border: .5px solid black;
+.nav-item{
+    border-right: 2px solid black;
+    letter-spacing: .36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.last-child{
+    border-right: none;
+}
+.footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px; 
+    background-color: rgb(228, 228, 228);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.carousel{
+    position: absolute;
+    width: 640px;
+    height: 360px;
+}
+.carousel-indicators{
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    position: absolute;
 }
