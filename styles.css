@@ -13,7 +13,7 @@ h1{
     font-size: 28px;
     border-right-style:1px black;
     border: black;
-    height: 75px;
+    height: auto;
 }
 .nav-item{
     border-right: 2px solid black;

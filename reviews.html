@@ -73,8 +73,29 @@
           <div class="jumbotron jumbotron-fluid">
             <div class="container">
               <h1 class="display-4">Type a review 
-                <p class="lead">Put review box here. NEEDS AN ENTER BUTTON ON THE BOTTOM</p>
-                <button type="button" class="btn btn-light">Enter</button>
+                <p class="lead">
+                  <form class="row g-3">
+                    <div class="col-md-12">
+                      <label for="validationDefault01" class="form-label"></label>
+                      <input type="text" class="form-control" id="validationDefault01" value="Type question here..." required>
+                    </div>
+                    <div class="col-md-8">
+                      <label for="validationDefault04" class="form-label"></label>
+                      <select class="form-select" id="validationDefault04" required>
+                        <option selected disabled value="">Rate your experience</option>
+                        <option>5 stars</option>
+                        <option>4 stars</option>
+                        <option>3 stars</option>
+                        <option>2 stars</option>
+                        <option>1 star</option>
+                        <option>0 stars</option>
+                      </select>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-light" type="submit">Submit Review</button>
+                    </div>
+                  </form>
+                </p>
               </h1>
             </div>
           </div>
@@ -89,7 +110,6 @@
       </a> 
       </p>
     </div>
-
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
