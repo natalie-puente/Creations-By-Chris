@@ -1,12 +1,12 @@
-h1{
+.header{
     text-align: center;
     color: black;
     -webkit-text-stroke: 1px rgb(255, 194, 212);
     --webkit-text-fill-color: white;
-    font-size: 75px;
     font-family: "Lucida Calligraphy";
     background-color: white;
     height: 87px;
+    padding-top: 15px;
 }
 .navbar{
     background-color: rgb(255, 225, 234);
@@ -14,6 +14,7 @@ h1{
     border-right-style:1px black;
     border: black;
     height: auto;
+    display: block;
 }
 .nav-item{
     border-right: 2px solid black;
@@ -23,6 +24,7 @@ h1{
 navbar-custom{
     padding-top: 20px;
 }
+
 .last-child{
     border-right: none;
 }
@@ -43,12 +45,18 @@ navbar-custom{
 }
 body{
     background-color: rgba(255, 227, 230, 0.404);
+    
 }
 .display-4{
     border-radius: 25px;
     height: 600px;
     text-align: center;
     padding-top: 20px;
+    background:white;
+}
+.textbox{
+    margin-top: 20px;
+    border-style: ridge;
 }
 .primary-button{
     font-family: 'Times New Roman', Times, serif;
@@ -60,4 +68,18 @@ h2{
 }
 p{
     color:rgb(78,78,78)
+}
+.map{
+    margin-top: 25px;
+    
+}
+.fixedcarousel{
+    margin-top: 20px;
+}
+.ajustedcarousel{
+    margin-top: 20px;
+    margin-left:20px;
+}
+.spacebox{
+    margin-top: 20px;
 }
