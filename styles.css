@@ -43,10 +43,11 @@ navbar-custom{
     width: 640px;
     height: 360px;
 }
-body{
+@media all and (orientation:portrait){}
+@media all and (orientation:landscape){}
+ body{
     background-color: rgba(255, 227, 230, 0.404);
-    
-}
+ }
 .display-4{
     border-radius: 25px;
     height: 600px;
@@ -76,10 +77,11 @@ p{
 .fixedcarousel{
     margin-top: 20px;
 }
-.ajustedcarousel{
+.adjustedcarousel{
     margin-top: 20px;
     margin-left:20px;
 }
 .spacebox{
     margin-top: 20px;
 }
+

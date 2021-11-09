@@ -78,49 +78,65 @@
           <h2>Need an event</h2>
           <form class="row g-3">
             <div class="col-md-4">
-              <label for="validationDefault01" class="form-label">First name</label>
-              <input type="text" class="form-control" id="validationDefault01" value="Enter Your First Name" required>
+              <label for="inputFirstname" class="form-label">First Name</label>
+              <input type="firstname" class="form-control" id="inputFirstname">
             </div>
             <div class="col-md-4">
-              <label for="validationDefault02" class="form-label">Last name</label>
-              <input type="text" class="form-control" id="validationDefault02" value="Enter Your Last Name" required>
+              <label for="inputLastname" class="form-label">Last Name</label>
+              <input type="lastname" class="form-control" id="inputLastname">
             </div>
             <div class="col-md-4">
-              <label for="validationDefaultUsername" class="form-label">Email</label>
-              <div class="input-group">
-                <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+              <label for="inputEmail4" class="form-label">Email*</label><div class="input-group">
+                <span class="input-group-text" id="inputEmail4">@</span>
+                <input type="text" class="form-control" id="imputEmail"  aria-describedby="inputGroupPrepend2" required>
               </div>
             </div>
-            <div class="col-md-6">
-              <label for="validationDefault03" class="form-label">City</label>
-              <input type="text" class="form-control" id="validationDefault03" required>
+            <div class="col-md-4">
+              <label for="inputPassword4" class="form-label">Phone Number*</label>
+              <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">#</span>
+                <input type="text" class="form-control" id="validationDefaultUsername"  placeholder="(###)###-####" aria-describedby="inputGroupPrepend2" required>
+              </div>
             </div>
-            <div class="col-md-3">
-              <label for="validationDefault04" class="form-label">State</label>
-              <select class="form-select" id="validationDefault04" required>
-                <option selected disabled value="">Choose state...</option>
-                <option>Alabama</option>
-                <option>Arkansas</option>
-                <option>Georgia</option>
-                <option>Illinois</option>
-                <option>Kentucky</option>
-                <option>Mississippi</option>
-                <option>Missouri</option>
-                <option>Tennessee</option>
+            <div class="col-3">
+              <label for="inputAddress" class="form-label">Date of Event</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="MM/DD/YYYY">
+            </div>
+            <div class="col-md-5">
+              <label for="inputState" class="form-label">How did you hear about us?</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose one option...</option>
+                <option>Google</option>
+                <option>Instagram</option>
+                <option>Facebook</option>
+                <option>Referal/Friend</option>
               </select>
             </div>
-            <div class="col-md-3">
-              <label for="validationDefault05" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="validationDefault05" required>
+            <div class="col-md-5">
+              <label for="inputCity" class="form-label">City*</label>
+              <input type="text" class="form-control" id="inputCity" required>
             </div>
-            <div class="col-md-12">
-              <label for="validationDefault03" class="form-label">What do you need</label>
-              <input type="text" class="form-control" id="validationDefault03" required>
+            <div class="col-md-5">
+              <label for="inputState" class="form-label">State Divisions</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose state division...</option>
+                <option>West Tennessee</option>
+                <option>Middle Tennessee</option>
+                <option>East Tennessee</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
             </div>
             <div class="col-12">
-              <button class="btn btn-secondary" type="submit">Submit form</button>
+              <label for="inputAddress2" class="form-label">What Services Would You Like Done? Tell Us About Your Event?</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="">
             </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-secondary">Submit Form</button>
+            </div>
+            <p>                 </p>
           </form>
         </div>
         <div class="col-md-6">
