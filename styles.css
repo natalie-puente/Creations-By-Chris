@@ -1,3 +1,4 @@
+
 .header{
     text-align: center;
     color: black;
@@ -8,80 +9,107 @@
     height: 87px;
     padding-top: 15px;
 }
-.navbar{
-    background-color: rgb(255, 225, 234);
-    font-size: 28px;
-    border-right-style:1px black;
-    border: black;
-    height: auto;
-    display: block;
-}
-.nav-item{
-    border-right: 2px solid black;
-    letter-spacing: .36px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-navbar-custom{
-    padding-top: 20px;
-}
+@media screen and (min-width:1024px) {
+         .navbar{
+           background-color: rgb(255, 225, 234);
+           font-size: 28px;
+           border-right-style:1px black;
+           border: black;
+           height: auto;
+           display: flex;
+           justify-content: space-around;
+         }
 
-.last-child{
-    border-right: none;
-}
-#footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 50px; 
-    background-color: rgb(228, 228, 228);
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-.carousel{
-    position: absolute;
-    width: 640px;
-    height: 360px;
-}
-@media all and (orientation:portrait){}
-@media all and (orientation:landscape){}
- body{
-    background-color: rgba(255, 227, 230, 0.404);
- }
-.display-4{
-    border-radius: 25px;
-    height: 600px;
-    text-align: center;
-    padding-top: 20px;
-    background:white;
-}
-.textbox{
-    margin-top: 20px;
-    border-style: ridge;
-}
-.primary-button{
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-}
 
-h2{
-    color: rgb(78, 78, 78);
-}
-p{
-    color:rgb(78,78,78)
-}
-.map{
-    margin-top: 25px;
+         .nav-item{
+           border-right: 2px solid black;
+           letter-spacing: .36px;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+         }
+
+
+         navbar-custom{
+           padding-top: 20px;
+         }
+
+
+         .last-child{
+           border-right: none;
+         }
+
+
+         #footer{
+           position: fixed;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           height: 50px; 
+           background-color: rgb(228, 228, 228);
+           color: rgb(0, 0, 0);
+           text-align: center;
+         }
+
+
+         .carousel{
+           position: absolute;
+           width: 640px;
+           height: 360px;
+         }
+         body{ 
+           background-color: rgba(255, 227, 230, 0.404);
+         } 
+
+         .display-4{
+           border-radius: 25px;
+           height: 600px;
+           text-align: center;
+           padding-top: 20px;
+           background:white;
+          }
+
+
+         .textbox{
+           margin-top: 20px;
+           border-style: ridge;
+         }
+
+
+         .primary-button{
+           font-family: 'Times New Roman', Times, serif;
+           color: black;
+         }
+
+
+         h2{
+           color: rgb(78, 78, 78);
+         }
+
+
+         p{
+           color:rgb(78,78,78)
+         }
+
+
+         .map{
+           margin-top: 25px;
     
+         }
+
+
+         .fixedcarousel{
+           margin-top: 20px;
+         }
+
+
+         .adjustedcarousel{
+           margin-top: 20px;
+           margin-left:20px;
+         }
+
+
+         .spacebox{
+           margin-top: 20px;
+         }   
 }
-.fixedcarousel{
-    margin-top: 20px;
-}
-.adjustedcarousel{
-    margin-top: 20px;
-    margin-left:20px;
-}
-.spacebox{
-    margin-top: 20px;
-}
+
 
