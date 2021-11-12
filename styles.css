@@ -38,8 +38,7 @@
          }
 
 
-         #footer{
-           position: fixed;
+         footer{
            left: 0;
            bottom: 0;
            width: 100%;
@@ -59,14 +58,13 @@
          body{ 
            background-color: rgba(255, 244, 244, 0.404);
          } 
-        
          .display-4{
-           border-radius: 25px;
-           height: 600px;
-           text-align: center;
-           padding-top: 20px;
-           background:white;
-          }
+          border-radius: 25px;
+          height: 600px;
+          text-align: center;
+          padding-top: 20px;
+          background:white;
+         }
 
 
          .textbox{
@@ -121,6 +119,21 @@
           font-family: segoe script;
           font-size: 80px;
           color: rgb(102, 102, 102);
+        }
+        .services-2{
+          height: 300px;
+        }
+        .contact-us{
+          font-family: segoe script;
+          text-align: center;
+          font-size: 45px;
+        }
+        .contact-information{
+          text-align: center;
+          font-size: 40px;
+        }
+        .class{
+          text-align: center;
         }
 
 
