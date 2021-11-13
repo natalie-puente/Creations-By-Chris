@@ -9,7 +9,7 @@
     height: 87px;
     padding-top: 15px;
 }
-@media screen and (max-width:900px) and (min-width: 600px), (min-width: 1100px) {
+@media screen and (max-width:900px) and (min-width: 900px), (min-width: 1200px) {
          .navbar{
            background-color: rgb(255, 225, 234);
            font-size: 28px;
@@ -111,8 +111,8 @@
          }   
          
         }   
-        .carousel-fix{
-          width: 500px;
+        #carouselExampleIndicators{
+          width: 514px;
         }
         .services{
           text-align: center;
