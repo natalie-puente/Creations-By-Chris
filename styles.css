@@ -134,5 +134,19 @@
         .class{
           text-align: center;
         }
-
+        .left{
+          text-align: left;
+          margin-left: 20px;
+        }
+        .summary{
+        font-family: segoe script;
+        }
+        .center{
+          text-align: center;
+        }
+        .popcorn{
+          border-top: 1px dashed black;
+        }
+       
+    
 
