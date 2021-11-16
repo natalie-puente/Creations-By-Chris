@@ -144,8 +144,11 @@
         .center{
           text-align: center;
         }
-        .popcorn{
-          border-top: 1px dashed black;
+        .greyscale{
+          background-color: rgba(189, 189, 189, 0.596);
+        }
+        .whitescale{
+          background-color: white;
         }
        
     
