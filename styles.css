@@ -1,3 +1,4 @@
+
 .header{
     text-align: center;
     color: black;
@@ -5,21 +6,19 @@
     --webkit-text-fill-color: white;
     font-family: "Lucida Calligraphy";
     background-color: white;
-    font-size: 90px;
     padding-top: 15px;
 }
+
 @media screen and (max-width:900px) and (min-width: 900px), (min-width: 1200px) {
-         .navbar{
-           background-color: rgb(255, 225, 234);
-           font-size: 28px;
-           border-right-style:1px black;
-           border: black;
-           height: auto;
-           display: flex;
-           justify-content: space-around;
-         }
-
-
+  .navbar{
+    background-color: rgb(255, 225, 234);
+    font-size: 28px;
+    border-right-style:1px black;
+    border: black;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+  }
          .nav-item{
            border-right: 2px solid black;
            letter-spacing: .36px;
@@ -28,7 +27,7 @@
 
 
          navbar-custom{
-           padding-top: 20px;
+          padding-top: 20px;
          }
 
 
@@ -90,7 +89,6 @@
 
          .map{
            margin-top: 25px;
-    
          }
 
 
@@ -150,6 +148,12 @@
         .whitescale{
           background-color: white;
         }
-       
+       ul{
+         display:inline-flex;
+       }
+       .askbox{
+        height: 350px;
+      }
+      
     
 
