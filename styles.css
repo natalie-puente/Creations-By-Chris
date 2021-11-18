@@ -9,7 +9,7 @@
     padding-top: 15px;
 }
 
-
+@media screen and (min-width: 1024px) and (min-width: 300px) and (max-width: 1920px) {
   .navbar{
     background-color: rgb(255, 225, 234);
     font-size: 28px;
@@ -35,7 +35,7 @@
            border-right: none;
          }
 
-
+         
          footer{
            left: 0;
            bottom: 0;
@@ -58,12 +58,11 @@
          } 
          .display-4{
           border-radius: 25px;
-          height: 600px;
+          height: 700px;
           text-align: center;
           padding-top: 20px;
           background:white;
          }
-
 
          .textbox{
            margin-top: 20px;
@@ -154,6 +153,8 @@
        .askbox{
         height: 350px;
       }
+    
+    
     
       
     
