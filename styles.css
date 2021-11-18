@@ -9,7 +9,7 @@
     padding-top: 15px;
 }
 
-@media screen and (min-width: 1024px) and (min-width: 300px) and (max-width: 1920px) {
+
   .navbar{
     background-color: rgb(255, 225, 234);
     font-size: 28px;
@@ -35,8 +35,11 @@
            border-right: none;
          }
 
-         
-         footer{
+@media all and (max-width: 5000px), (min-width: 3000px) {
+      body{ 
+        background-color: rgba(255, 244, 244, 0.404);
+       }        
+        footer{
            left: 0;
            bottom: 0;
            width: 100%;
@@ -45,17 +48,11 @@
            color: rgb(0, 0, 0);
            text-align: center;
          }
-
-
          .carousel{
            position: absolute;
            width: 640px;
            height: 360px;
          }
-         
-         body{ 
-           background-color: rgba(255, 244, 244, 0.404);
-         } 
          .display-4{
           border-radius: 25px;
           height: 700px;
@@ -153,6 +150,123 @@
        .askbox{
         height: 350px;
       }
+    }
+    @media (orientation: portrait) {
+      body{ 
+        background-color: rgba(255, 244, 244, 0.404);
+       }        
+        footer{
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           height: 50px; 
+           background-color: rgb(228, 228, 228);
+           color: rgb(0, 0, 0);
+           text-align: center;
+         }
+         .carousel{
+           position: absolute;
+           width: 640px;
+           height: 360px;
+         }
+         .display-4{
+          border-radius: 25px;
+          height: 700px;
+          text-align: center;
+          padding-top: 20px;
+          background:white;
+         }
+
+         .textbox{
+           margin-top: 20px;
+           border-style: ridge;
+         }
+
+
+         .primary-button{
+           font-family: 'Times New Roman', Times, serif;
+           color: black;
+         }
+
+
+         h2{
+           color: rgb(78, 78, 78);
+         }
+
+
+         p{
+           color:rgb(78,78,78)
+         }
+
+
+         .map{
+           margin-top: 25px;
+         }
+
+
+         .fixedcarousel{
+           margin-top: 20px;
+         }
+
+
+         .adjustedcarousel{
+           margin-top: 20px;
+           margin-left:20px;
+         }
+
+
+         .spacebox{
+           margin-top: 20px;
+         }   
+         
+           
+        #carouselExampleIndicators{
+          width: 514px;
+        }
+        .services{
+          text-align: center;
+          font-family: segoe script;
+          font-size: 80px;
+          color: rgb(102, 102, 102);
+        }
+        .services-2{
+          height: 300px;
+        }
+        .contact-us{
+          font-family: segoe script;
+          text-align: center;
+          font-size: 45px;
+        }
+        .contact-information{
+          text-align: center;
+          font-size: 40px;
+        }
+        .class{
+          text-align: center;
+        }
+        .left{
+          text-align: left;
+          margin-left: 20px;
+        }
+        .summary{
+        font-family: segoe script;
+        }
+        .center{
+          text-align: center;
+        }
+        .greyscale{
+          background-color: rgba(189, 189, 189, 0.596);
+        }
+        .whitescale{
+          background-color: white;
+        }
+       ul{
+         display:inline-flex;
+       }
+       .askbox{
+        height: 350px;
+      }
+    }
     
     
     
