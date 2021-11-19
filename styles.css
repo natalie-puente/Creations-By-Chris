@@ -35,7 +35,11 @@
            border-right: none;
          }
 
-@media all and (max-width: 5000px), (min-width: 3000px) {
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
       body{ 
         background-color: rgba(255, 244, 244, 0.404);
        }        
@@ -150,8 +154,6 @@
        .askbox{
         height: 350px;
       }
-    }
-    @media (orientation: portrait) {
       body{ 
         background-color: rgba(255, 244, 244, 0.404);
        }        
@@ -266,7 +268,6 @@
        .askbox{
         height: 350px;
       }
-    }
     
     
     
