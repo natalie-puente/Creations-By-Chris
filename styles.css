@@ -268,6 +268,12 @@
        .askbox{
         height: 350px;
       }
+      .marginbox{
+        margin-top: 100px;
+      }
+      .margintextbox{
+        margin-top: 60px;
+      }
     
     
     
