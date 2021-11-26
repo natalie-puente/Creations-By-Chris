@@ -1,4 +1,3 @@
-
 .header{
     text-align: center;
     color: black;
@@ -10,8 +9,7 @@
     font-size: 4vw;
 }
 
-
-  .navbar{
+.navbar{
     background-color: rgb(255, 225, 234);
     font-size: 28px;
     border-right-style:1px black;
@@ -19,149 +17,155 @@
     height: auto;
     display: flex;
     justify-content: space-around;
-  }
-         .nav-item{
-           border-right: 2px solid black;
-           letter-spacing: .36px;
-           font-family: Georgia, 'Times New Roman', Times, serif;
-         }
+}
+.nav-item{
+   border-right: 2px solid black;
+   letter-spacing: .36px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+navbar-custom{
+   padding-top: 20px;
+}
 
-         navbar-custom{
-          padding-top: 20px;
-         }
-
-
-         .last-child{
-           border-right: none;
-         }
+.last-child{
+   border-right: none;
+}
 
 .flex-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-      body{ 
-        background-color: rgba(255, 244, 244, 0.404);
-       }        
+
+body{ 
+  background-color: rgba(255, 244, 244, 0.404);
+}        
        
-        footer{
-           left: 0;
-           bottom: 0;
-           width: 100%;
-           height: 50px; 
-           background-color: rgb(228, 228, 228);
-           color: rgb(0, 0, 0);
-           text-align: center;
-         }
-         .carousel{
-           position: absolute;
-           width: 640px;
-           height: 360px;
-         }
-         .display-4{
-          border-radius: 25px;
-          height: 700px;
-          text-align: center;
-          padding-top: 20px;
-          background:white;
-         }
+.carousel{
+  width: 640px;
+  height: 360px;
+}
+      
+.display-4{
+   border-radius: 25px;
+   height: 700px;
+   text-align: center;
+   padding-top: 20px;
+   background:white;
+}
 
-         .textbox{
-           margin-top: 20px;
-           border-style: ridge;
-         }
+.textbox{
+   margin-top: 20px;
+   border-style: ridge;
+}
 
+.primary-button{
+   font-family: 'Times New Roman', Times, serif;
+   color: black;
+}
 
-         .primary-button{
-           font-family: 'Times New Roman', Times, serif;
-           color: black;
-         }
+h2{
+   color: rgb(78, 78, 78);
+}
 
+p{
+   color:rgb(78,78,78)
+}
 
-         h2{
-           color: rgb(78, 78, 78);
-         }
+.map{
+   margin-top: 25px;
+}
 
+.fixedcarousel{
+   margin-top: 20px;
+}
 
-         p{
-           color:rgb(78,78,78)
-         }
+.adjustedcarousel{
+   margin-top: 20px;
+   margin-left:20px;
+}
 
+.spacebox{
+  margin-top: 20px;
+}   
+                    
+#carouselExampleIndicators{
+   width: 514px;
+}
 
-         .map{
-           margin-top: 25px;
-         }
+.services{
+   text-align: center;
+   font-family: segoe script;
+   font-size: 80px;
+   color: rgb(102, 102, 102);
+}
 
+.services-2{
+   height: 300px;
+}
 
-         .fixedcarousel{
-           margin-top: 20px;
-         }
+.contact-us{
+   font-family: segoe script;
+   text-align: center;
+   font-size: 45px;
+}
 
+.contact-information{
+   text-align: center;
+   font-size: 40px;
+}
 
-         .adjustedcarousel{
-           margin-top: 20px;
-           margin-left:20px;
-         }
+.class{
+   text-align: center;
+}
 
+.left{
+   text-align: left;
+   margin-left: 20px;
+}
 
-         .spacebox{
-           margin-top: 20px;
-         }   
-         
-           
-        #carouselExampleIndicators{
-          width: 514px;
-        }
-        .services{
-          text-align: center;
-          font-family: segoe script;
-          font-size: 80px;
-          color: rgb(102, 102, 102);
-        }
-        .services-2{
-          height: 300px;
-        }
-        .contact-us{
-          font-family: segoe script;
-          text-align: center;
-          font-size: 45px;
-        }
-        .contact-information{
-          text-align: center;
-          font-size: 40px;
-        }
-        .class{
-          text-align: center;
-        }
-        .left{
-          text-align: left;
-          margin-left: 20px;
-        }
-        .summary{
-        font-family: segoe script;
-        }
-        .center{
-          text-align: center;
-        }
-        .greyscale{
-          background-color: rgba(189, 189, 189, 0.596);
-        }
-        .whitescale{
-          background-color: white;
-        }
-       ul{
-         display:inline-flex;
-       }
-       .askbox{
-        height: 350px;
-      }
-      .marginbox{
-        margin-top: 100px;
-      }
-      .margintextbox{
-        margin-top: 60px;
-      }
+.summary{
+   font-family: segoe script;
+}
+
+.center{
+   text-align: center;
+}
+
+.greyscale{
+   background-color: rgba(189, 189, 189, 0.596);
+}
+
+.whitescale{
+   background-color: white;
+}
+
+ul{
+   display:inline-flex;
+}
+
+.askbox{
+   height: 350px;
+}
+
+.marginbox{
+   margin-top: 100px;
+}
+
+.margintextbox{
+   margin-top: 60px;
+}
+
+footer{
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 50px; 
+   background-color: rgb(228, 228, 228);
+   color: rgb(0, 0, 0);
+   text-align: center;
+}
     
     
     
