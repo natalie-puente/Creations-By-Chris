@@ -1,174 +1,174 @@
-.header{
-    text-align: center;
-    color: black;
-    -webkit-text-stroke: 1px rgb(255, 194, 212);
-    --webkit-text-fill-color: white;
-    font-family: "Lucida Calligraphy";
-    background-color: white;
-    padding-top: 15px;
-    font-size: 4vw;
+.header {
+  text-align: center;
+  color: black;
+  -webkit-text-stroke: 1px rgb(255, 194, 212);
+  --webkit-text-fill-color: white;
+  font-family: "Lucida Calligraphy";
+  background-color: white;
+  padding-top: 15px;
+  font-size: 4vw;
 }
 
-.navbar{
-    background-color: rgb(255, 225, 234);
-    font-size: 28px;
-    border-right-style:1px black;
-    border: black;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-}
-.nav-item{
-   border-right: 2px solid black;
-   letter-spacing: .36px;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+.navbar {
+  background-color: rgb(255, 225, 234);
+  font-size: 28px;
+
+  border: black;
+  height: auto;
+  display: flex;
+
 }
 
-navbar-custom{
-   padding-top: 20px;
+.nav-item {
+  border-right: 2px solid black;
+  letter-spacing: .36px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.last-child{
-   border-right: none;
+.navbar-custom {
+  padding-top: 20px;
 }
 
-.flex-container{
+.navbar-nav {
+  flex-direction: row;
+}
+
+.last-child {
+  border-right: none;
+}
+
+.flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-body{ 
+body {
   background-color: rgba(255, 244, 244, 0.404);
-}        
-       
-.carousel{
+}
+
+.carousel {
   width: 640px;
   height: 360px;
 }
-      
-.display-4{
-   border-radius: 25px;
-   height: 700px;
-   text-align: center;
-   padding-top: 20px;
-   background:white;
+
+.display-4 {
+  border-radius: 25px;
+  height: 700px;
+  text-align: center;
+  padding-top: 20px;
+  background: white;
 }
 
-.textbox{
-   margin-top: 20px;
-   border-style: ridge;
-}
-
-.primary-button{
-   font-family: 'Times New Roman', Times, serif;
-   color: black;
-}
-
-h2{
-   color: rgb(78, 78, 78);
-}
-
-p{
-   color:rgb(78,78,78)
-}
-
-.map{
-   margin-top: 25px;
-}
-
-.fixedcarousel{
-   margin-top: 20px;
-}
-
-.adjustedcarousel{
-   margin-top: 20px;
-   margin-left:20px;
-}
-
-.spacebox{
+.textbox {
   margin-top: 20px;
-}   
-                    
-#carouselExampleIndicators{
-   width: 514px;
+  border-style: ridge;
 }
 
-.services{
-   text-align: center;
-   font-family: segoe script;
-   font-size: 80px;
-   color: rgb(102, 102, 102);
+.primary-button {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
 }
 
-.services-2{
-   height: 300px;
+h2 {
+  color: rgb(78, 78, 78);
 }
 
-.contact-us{
-   font-family: segoe script;
-   text-align: center;
-   font-size: 45px;
+p {
+  color: rgb(78, 78, 78)
 }
 
-.contact-information{
-   text-align: center;
-   font-size: 40px;
+.map {
+  margin-top: 25px;
 }
 
-.class{
-   text-align: center;
+.fixedcarousel {
+  margin-top: 20px;
 }
 
-.left{
-   text-align: left;
-   margin-left: 20px;
+.adjustedcarousel {
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
-.summary{
-   font-family: segoe script;
+.spacebox {
+  margin-top: 20px;
 }
 
-.center{
-   text-align: center;
+#carouselExampleIndicators {
+  width: 514px;
 }
 
-.greyscale{
-   background-color: rgba(189, 189, 189, 0.596);
+.services {
+  text-align: center;
+  font-family: segoe script;
+  font-size: 80px;
+  color: rgb(102, 102, 102);
 }
 
-.whitescale{
-   background-color: white;
+.services-2 {
+  height: 300px;
 }
 
-ul{
-   display:inline-flex;
+.contact-us {
+  font-family: segoe script;
+  text-align: center;
+  font-size: 45px;
 }
 
-.askbox{
-   height: 350px;
+.contact-information {
+  text-align: center;
+  font-size: 40px;
 }
 
-.marginbox{
-   margin-top: 100px;
+.class {
+  text-align: center;
 }
 
-.margintextbox{
-   margin-top: 60px;
+.left {
+  text-align: left;
+  margin-left: 20px;
 }
 
-footer{
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   height: 50px; 
-   background-color: rgb(228, 228, 228);
-   color: rgb(0, 0, 0);
-   text-align: center;
+.summary-goals{
+  width: 550px;
 }
-    
-    
-    
-      
-    
+.summary {
+  font-family: segoe script;
+}
 
+.center {
+  text-align: center;
+}
+
+.greyscale {
+  background-color: rgba(189, 189, 189, 0.596);
+  height: 120px;
+}
+
+.bulletpoints{
+  height: 165px;
+  width: 510px;
+}
+
+.askbox {
+  height: 350px;
+}
+
+.marginbox {
+  margin-top: 100px;
+}
+
+.margintextbox {
+  margin-top: 60px;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(228, 228, 228);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
