@@ -65,6 +65,27 @@ body {
   border-style: ridge;
 }
 
+.summary-goals{
+  width: 575px;
+}
+
+.summary {
+  font-family: segoe script;
+}
+
+.bulletpoints{
+  height: 165px;
+  width: 510px;
+  
+}
+
+.greyscale {
+  background-color: rgba(189, 189, 189, 0.596);
+  height: 120px;
+  border-style: ridge;
+  border-radius: 5px;
+}
+
 .primary-button {
   font-family: 'Times New Roman', Times, serif;
   color: black;
@@ -130,25 +151,8 @@ p {
   margin-left: 20px;
 }
 
-.summary-goals{
-  width: 550px;
-}
-.summary {
-  font-family: segoe script;
-}
-
 .center {
   text-align: center;
-}
-
-.greyscale {
-  background-color: rgba(189, 189, 189, 0.596);
-  height: 120px;
-}
-
-.bulletpoints{
-  height: 165px;
-  width: 510px;
 }
 
 .askbox {
