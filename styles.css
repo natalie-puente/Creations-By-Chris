@@ -1,11 +1,8 @@
-.header {
-  text-align: center;
-  color: black;
-  -webkit-text-stroke: 1px rgb(255, 194, 212);
-  --webkit-text-fill-color: white;
+.header{
   font-family: "Lucida Calligraphy";
-  background-color: white;
-  padding-top: 15px;
+  color: black;
+  -webkit-text-stroke: 1px rgb(255,194,212);
+  text-align: center;
 }
 
 .navbar {
@@ -171,5 +168,11 @@ footer {
   height: 50px;
   background-color: rgb(228, 228, 228);
   text-align: center;
-  display: inline-block;
+}
+.location{
+  margin-top: 40px;
+}
+.info{
+  font-size: 15px;
+  color: rgb(102, 102, 102);
 }
