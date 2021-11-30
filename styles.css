@@ -127,7 +127,7 @@ p {
 
 .contact-information {
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .class {
@@ -174,4 +174,13 @@ footer {
 .info{
   font-size: 15px;
   color: rgb(102, 102, 102);
+}
+.single-carousel{
+  height: 370px;
+  padding-top: 30px;
+  width: 400px;
+}
+.draping{
+  height: 500px;
+  object-fit: cover;
 }
