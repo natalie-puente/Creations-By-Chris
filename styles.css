@@ -10,7 +10,6 @@
   font-size: 28px;
   border: black;
   height: auto;
-  display: flex;
 }
 
 .nav-item {
@@ -165,7 +164,7 @@ p {
 }
 
 footer {
-  height: 50px;
+  
   background-color: rgb(228, 228, 228);
   text-align: center;
 }
