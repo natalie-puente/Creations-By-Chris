@@ -60,16 +60,16 @@ body {
 }
 
 .summary {
-  font-family: segoe script;
+  font-family: segoe script, Bradley Hand;
 }
 
 .greyscale {
   background-color: rgba(189, 189, 189, 0.596);
-  height: 124px;
+  height: 175px;
   border-style: ridge;
   border-radius: 5px;
   box-sizing: border-box;
-  width: 135px;
+  width: 130px;
 }
 
 .first-box{
@@ -120,7 +120,7 @@ p {
 }
 
 .contact-us {
-  font-family: segoe script;
+  font-family: segoe script,'Times New Roman', Times, serif;
   text-align: center;
   font-size: 45px;
 }
@@ -145,6 +145,7 @@ p {
 
 .FAQ-box{
   width: 700px;
+  padding-top: 30px;
 }
 
 .center {
@@ -156,7 +157,7 @@ p {
 }
 
 .marginbox {
-  margin-top: 100px;
+  margin-top: 55px;
 }
 
 .margintextbox {
@@ -193,7 +194,33 @@ footer {
 .review-box{
   padding-top: 20px;
 }
-.carousel-item{
- 
+.venuesspace{
+  padding-top: 15px;
+}
+.pictureBorder{
+  border-radius: 10px;
+  border-color: black;
+  border: 5px solid rgb(0, 0, 0),
+}
+.whitescale {
+  background-color: rgba(255, 255, 255, 0.596);
+  height: 175px;
+  border-style: ridge;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 130px;
+}
+.sidescale{
+  padding-left: 25px;
+}
+.backscale{
+  padding-left: 11px;
 }
 
+.question-style{
+  text-align: center;
+  font-family: segoe script;
+  font-size: 80px;
+  color: rgb(102, 102, 102);
+  padding-top: 20px;
+}
