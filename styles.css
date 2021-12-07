@@ -29,11 +29,13 @@
 }
 /*END HOMEPAGE*/
 
+/*STYLE FOR ALL PAGES*/
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+/*END STYLE FOR ALL PAGES*/
 
 /*BODY TAG FOR ALL PAGES*/
 body {
@@ -75,22 +77,27 @@ body {
 }
 /*END DESCRIPTIONS*/
 
-
+/*FOOTER STYLE*/
 p {
   color: rgb(78, 78, 78)
 }
 
+footer {
+  background-color: rgb(228, 228, 228);
+  text-align: center;
+}
+/*END FOOTER STYLE*/
+
+/*MAP*/
 .map {
   margin-top: 25px;
 }
+/*END MAP*/
 
+/*ABOUT PAGE CAROUSEL*/
 .adjustedcarousel {
   padding-top: 20px;
   width: 550px;
-}
-
-.spacebox {
-  margin-top: 20px;
 }
 
 .about-carousel-2{
@@ -98,7 +105,19 @@ p {
   padding-top: 20px;
   margin-left: 55px;
 }
+/*END ABOUT PAGE CAROUSEL*/
 
+/*CONTACT PAGE STYLES*/
+.spacebox {
+  margin-top: 20px;
+}
+
+.location{
+  margin-top: 40px;
+}
+/*END CONTACT PAGE STYLES*/
+
+/*SERVICES STYLES*/
 .services {
   text-align: center;
   font-family: segoe script;
@@ -115,8 +134,9 @@ p {
 }
 
 .text-size{
-  font-size: 23px;
+  font-size: 20px;
 }
+/*END SERVICES STYLES*/
 
 /*CONTACT STYLES*/
 .contact-us {
@@ -129,12 +149,18 @@ p {
   text-align: center;
   font-size: 35px;
 }
+
+.info{
+  font-size: 15px;
+  color: rgb(102, 102, 102);
+}
 /*END CONTACT STYLES*/
 
 .class {
   text-align: center;
 }
 
+/*FAQ STYLES*/
 .left {
   text-align: left;
   margin-left: 20px;
@@ -149,40 +175,31 @@ p {
   padding-top: 30px;
 }
 
-.center {
-  text-align: center;
-}
-
-.askbox {
-  height: 350px;
-}
-
 .marginbox {
   margin-top: 45px;
 }
 
+.question-style{
+  text-align: center;
+  font-family: segoe script;
+  font-size: 80px;
+  color: rgb(102, 102, 102);
+  padding-top: 20px;
+}
+/*END FAQ STYLES*/
+
+/*REVIEW STYLES*/
 .margintextbox {
   margin-top: 60px;
 }
 
-footer {
-  background-color: rgb(228, 228, 228);
-  text-align: center;
+.review-box{
+  padding-top: 20px;
 }
-.location{
-  margin-top: 40px;
-}
-.info{
-  font-size: 15px;
-  color: rgb(102, 102, 102);
-}
-.single-carousel{
-  height: 370px;
-  padding-top: 30px;
-  width: 400px;
-  margin-left: 66px;
-}
+/*END REVIEW STYLES*/
 
+
+/*ABOUT PAGE STYLES*/
 .about-owner{
   margin-left: 10px;
   width: 550px;
@@ -192,9 +209,15 @@ footer {
   margin-left: 12px;
 }
 
-.review-box{
-  padding-top: 20px;
+.single-carousel{
+  height: 370px;
+  padding-top: 30px;
+  width: 400px;
+  margin-left: 66px;
 }
+/*END ABOUT PAGE STYLES*/
+
+/*VENUES STYLES*/
 .venuesspace{
   padding-top: 15px;
 }
@@ -203,25 +226,10 @@ footer {
   border-color: black;
   border: 5px solid rgb(0, 0, 0),
 }
-.whitescale {
-  background-color: rgba(255, 255, 255, 0.596);
-  height: 175px;
-  border-style: ridge;
-  border-radius: 5px;
-  box-sizing: border-box;
-  width: 130px;
-}
-.sidescale{
-  padding-left: 25px;
-}
-.backscale{
-  padding-left: 11px;
-}
+/*END VENUES STYLES*/
 
-.question-style{
-  text-align: center;
-  font-family: segoe script;
-  font-size: 80px;
-  color: rgb(102, 102, 102);
-  padding-top: 20px;
+@media screen and (max-width: 780px) {
+  .summary-goals{
+    width: 475px;
+  }
 }
