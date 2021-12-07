@@ -1,3 +1,4 @@
+/*HOMEPAGE*/
 .header{
   font-family: "Lucida Calligraphy";
   color: black;
@@ -26,6 +27,7 @@
 .last-child {
   border-right: none;
 }
+/*END HOMEPAGE*/
 
 .flex-container {
   display: flex;
@@ -33,16 +35,21 @@
   justify-content: center;
 }
 
+/*BODY TAG FOR ALL PAGES*/
 body {
   background-color: rgba(255, 244, 244, 0.404);
   display: flex;
   flex-direction: column;
 }
+/*END BODY TAG*/
 
+/*HOMEPAGE CAROUSEL*/
 .homepage-carousel{
   padding-top: 30px;
 }
+/*END CAROUSEL*/
 
+/*JUMBOTRON*/
 .display-4 {
   border-radius: 25px;
   text-align: center;
@@ -54,36 +61,20 @@ body {
   margin-top: 20px;
   border-style: ridge;
 }
+/*END JUMBOTRON*/
 
+/*HOMEPAGE JUMBOTRON*/
 .summary-goals{
   width: 600px;
 }
+/*END HOMEPAGE JUMBOTRON*/
 
+/*DESCRIPTIONS ON ALL PAGES*/
 .summary {
   font-family: segoe script, Bradley Hand;
 }
+/*END DESCRIPTIONS*/
 
-.greyscale {
-  background-color: rgba(189, 189, 189, 0.596);
-  height: 175px;
-  border-style: ridge;
-  border-radius: 5px;
-  box-sizing: border-box;
-  width: 130px;
-}
-
-.first-box{
-  margin-left: 15px;
-}
-
-.primary-button {
-  font-family: 'Times New Roman', Times, serif;
-  color: black;
-}
-
-h2 {
-  color: rgb(78, 78, 78);
-}
 
 p {
   color: rgb(78, 78, 78)
@@ -119,6 +110,15 @@ p {
   height: 300px;
 }
 
+.services-3{
+  height: 400px;
+}
+
+.text-size{
+  font-size: 23px;
+}
+
+/*CONTACT STYLES*/
 .contact-us {
   font-family: segoe script,'Times New Roman', Times, serif;
   text-align: center;
@@ -129,6 +129,7 @@ p {
   text-align: center;
   font-size: 35px;
 }
+/*END CONTACT STYLES*/
 
 .class {
   text-align: center;
@@ -157,7 +158,7 @@ p {
 }
 
 .marginbox {
-  margin-top: 55px;
+  margin-top: 45px;
 }
 
 .margintextbox {
