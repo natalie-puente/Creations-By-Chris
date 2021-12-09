@@ -19,10 +19,6 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.navbar-nav {
-  
-}
-
 .last-child {
   border-right: none;
 }
@@ -181,9 +177,9 @@ footer {
 .question-style{
   text-align: center;
   font-family: segoe script;
-  font-size: 80px;
+  font-size: 100px;
   color: rgb(102, 102, 102);
-  padding-top: 20px;
+  padding-top: 52px;
 }
 /*END FAQ STYLES*/
 
@@ -228,9 +224,65 @@ footer {
 /*END VENUES STYLES*/
 
 /*MEDIA QUERIES*/
+@media screen and (max-width: 1030px) {
+  .summary-goals{
+    width: 900px;
+  }
+  .homepage-carousel{
+    width: 900px;
+  }
+  .services{
+    font-size: 175px;
+    padding-top: 57px;
+  }
+  .paper{
+    padding-top: 30px;
+  }
+  .pencil{
+    height: 500px;
+  }
+  .plastic{
+    padding-top: 70px;
+  }
+  .picturesize{
+    width: 450px;
+  }
+  .about-owner{
+    width: 900px;
+  }
+  .about-business{
+    width: 900px;
+  }
+  .single-carousel{
+    width: 500px;
+    margin-left: 220px;
+  }
+  .adjustedcarousel2{
+    margin-left: 220px;
+  }
+  .FAQ-box{
+    width: 900px;
+  }
+  .marginbox{
+    width: 700px;
+  }
+  .review-box{
+    width: 900px;
+  }
+  .margintextbox{
+    width: 900px;
+  }
+  .map{
+    margin-left: 35px;
+    width: 440px;
+  }
+  .contact-us{
+    font-size: 80px;
+  }
+}
 @media screen and (max-width: 780px) {
   .summary-goals{
-    width: 475px;
+    width: 665px;
   }
   .nav-item {
     letter-spacing: .36px;
@@ -240,6 +292,34 @@ footer {
   .contact-information{
     font-size: 20px;
   }
+  .about-owner{
+    width: 700px;
+  }
+  .about-business{
+    width: 700px;
+  }
+  .picturesize{
+    width: 275px;
+  }
+  .margintextbox{
+    width: 700px;
+  }
+  .marginbox{
+    width: 700px;
+  }
+  .single-carousel{
+    width: 450px;
+    margin-left: 110px;
+  }
+  .review-box{
+    width: 650px;
+  }
+  .map{
+    width: 325px;
+  }
+  .adjustedcarousel2{
+    margin-left: 110px;
+  }
 }
 @media screen and (max-width: 430px) {
   .summary-goals{
@@ -247,6 +327,32 @@ footer {
   }
   .services-3{
     height: 430px;
+  }
+  .question-style{
+    font-size: 40px;
+  }
+  .single-carousel{
+    width: 300px;
+    margin-left: 35px;
+  }
+  .adjustedcarousel2{
+    width: 300px;
+    margin-left: 45px;
+  }
+  .review-box{
+    width: 370px;
+  }
+  .map{
+    width: 375px;
+  }
+  .services{
+    font-size: 80px;
+  }
+  .about-owner{
+    width: 400px;
+  }
+  .about-business{
+    width: 400px;
   }
 }
 @media screen and (max-width: 390px) {
@@ -273,8 +379,23 @@ footer {
   .question-style{
     font-size: 60px;;
   }
-  .margin-style{
-  
+  .review-box{
+    width: 340px;
+  }
+  .services{
+    font-size: 80px;
+  }
+  .contact-us{
+    font-size: 75px;
+  }
+  .map{
+    width: 300px;
+  }
+  .about-owner{
+    width: 350px;
+  }
+  .about-business{
+    width: 350px;
   }
 }
 /*END MEDIA QUERIES*/
