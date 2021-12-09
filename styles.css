@@ -116,6 +116,24 @@ footer {
 }
 /*END CONTACT PAGE STYLES*/
 
+/*CONTACT STYLES*/
+.contact-us {
+  font-family: segoe script,'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 45px;
+}
+
+.contact-information {
+  text-align: center;
+  font-size: 35px;
+}
+
+.info{
+  font-size: 15px;
+  color: rgb(102, 102, 102);
+}
+/*END CONTACT STYLES*/
+
 /*SERVICES STYLES*/
 .services {
   text-align: center;
@@ -136,24 +154,6 @@ footer {
   font-size: 20px;
 }
 /*END SERVICES STYLES*/
-
-/*CONTACT STYLES*/
-.contact-us {
-  font-family: segoe script,'Times New Roman', Times, serif;
-  text-align: center;
-  font-size: 45px;
-}
-
-.contact-information {
-  text-align: center;
-  font-size: 35px;
-}
-
-.info{
-  font-size: 15px;
-  color: rgb(102, 102, 102);
-}
-/*END CONTACT STYLES*/
 
 .class {
   text-align: center;
@@ -237,7 +237,9 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: none;
   }
-  
+  .contact-information{
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 430px) {
   .summary-goals{
