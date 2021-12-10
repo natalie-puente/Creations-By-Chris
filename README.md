@@ -1,5 +1,4 @@
 # Creations By Chris
- <h1>creations by Chris</h1>
  <h3>creations by Chris is an event planning company in Jackson, TN that coordinates weddings, birthday parties, company parties, etc.</h3>
  
  <h3>This website was created by Haley Brown (Haley.Brown@students.jmcss.org) and Natalie Puente (Natalie.puente@students.jmcss.org)</h3>
@@ -23,4 +22,25 @@
  <li>Contact: Our contact page includes various ways to get in touch with the business. We also included a google map which shows where the business is based out of. We also included a google form which you can fill out to alert the owners you are interested in working with them. We also included a description of where the business is willing to provide services to.</li>
  </ul>
  <h2>Our Experience Creating The Website</h2>
- <>
+ 
+ <h3>Our Struggles</h3>
+ 
+ <h4>Unlike other builders, we didn't have another website to base our project off of because we created the first website for this company.</h4>
+ 
+ <h4>Our biggest struggle was dealing with the responsiveness of the website. We spent weeks trying to get our website to respond to all screen sizes. We also had trouble getting our navbar responsive when we minimized our screen sizes. Because of this, we had to revision our navbar, so it would adjust properly on smaller screens. This also applied to the footer with trying to get the footer to cover the entire bottom part of the website.</h4>
+ 
+ <h4>One of our first struggles was working on the navbar. When we designed our website we had a vision for our navbar which we didn't know how to apply it to codes. With research we managed to get past our obstacle, we eventually created a navbar that was very similar to our vision we had.</h4>
+ 
+ <h4>We had a minor setback when it came to getting things at an appropriate time. We didn't recieve our photos or review until 2 weeks prior to the project's submit date. This was a challenge because our website is meant to show off what the business provides and we had a problem fixing the sizes of the photos.</h4>
+ 
+ <h4>Another one of our obstacles was creating a form to allow the customer to interact with the business. We created a form using a Bootstrap template, however halfway through the project, we realized customers would not be able to submit a form, because we didn't have a database. We consulted our teacher for advice on how to fix it and he suggested to use a google form. We then, quickly adjusted our forms to be customer friendly.</h4>
+
+ <h3>Our Pros</h3>
+
+ <h4>When we were invisioning our website we wanted a very customer friendly website and atmosphere. We wanted our website to be very easily accessible to the customer which is why we decided on a simplistic format.</h4>
+
+ <h4>Through this whole project, we worked as a team. We had great communication skills and any major problems, we consuted each other and tried to figure out a solution. We always worked on the project as a team, rather than individuals.</h4>
+
+ <h4>We spent an abundant amount of time planning our website and what we wanted to accomplish with this website and its format. Although we had many obstacles that changed our vision, we consulted each other to figure out the best solution for our website.</h4>
+
+ <h4>When we decided on our look, we wanted something that was very appealing to the viewer's eyes. This is a reason why we used light shades of pink and grey, so that our colors would complement each other and not contrast each other. The font we decided to use complements the font from the business's logo. We tried to bring to life what the owner also envisioned.</h4>
